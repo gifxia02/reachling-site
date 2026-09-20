@@ -1424,16 +1424,18 @@
         width: clamp(240px, 72vw, 420px);
         max-width: calc(100vw - 64px);
         height: 1px;
-        background: rgba(248, 249, 250, 0.22);
+        background: rgba(255, 85, 0, 0.34);
         margin: 0 auto 22px;
       }
       .hero-actions .btn-primary,
       .hero-actions .btn-secondary {
-        width: 100%;
-        max-width: 185px;
-        padding: 8px 14px;
-        font-size: 0.82rem;
-        border-radius: 8px;
+        /* Return to the wider reference CTA, but keep it slightly smaller
+           and fluid across phone widths. */
+        width: clamp(230px, 68vw, 300px);
+        max-width: calc(100vw - 56px);
+        padding: 11px 18px;
+        font-size: 0.9rem;
+        border-radius: 10px;
         justify-content: center;
       }
       .nav-links {
