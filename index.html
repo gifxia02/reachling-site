@@ -254,7 +254,7 @@
       background: var(--color-signal-orange);
       color: var(--color-venue-black) !important;
       padding: 8px 18px;
-      border-radius: 8px;
+      border-radius: 2px;
       font-weight: 600 !important;
       font-size: 0.85rem !important;
       transition: background 0.25s var(--transition-smooth),
@@ -441,7 +441,7 @@
       font-size: 0.95rem;
       letter-spacing: -0.005em;
       padding: 15px 30px;
-      border-radius: 10px;
+      border-radius: 2px;
       border: 1px solid var(--color-signal-orange);
       cursor: pointer;
       display: inline-flex;
@@ -455,12 +455,12 @@
     .btn-primary:hover {
       background: #ff6a2a;
       border-color: #ff6a2a;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(255, 85, 0, 0.28);
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 rgba(255, 85, 0, 0.22);
     }
     .btn-primary:active {
       transform: translateY(0);
-      box-shadow: 0 2px 8px rgba(255, 85, 0, 0.25);
+      box-shadow: none;
     }
     .btn-secondary {
       background: transparent;
@@ -469,7 +469,7 @@
       font-weight: 500;
       font-size: 0.95rem;
       padding: 15px 30px;
-      border-radius: 10px;
+      border-radius: 2px;
       border: 1px solid rgba(248, 249, 250, 0.22);
       cursor: pointer;
       display: inline-flex;
@@ -480,8 +480,8 @@
     .btn-secondary:hover {
       border-color: var(--color-signal-orange);
       color: var(--color-signal-orange);
-      transform: translateY(-1px);
-      box-shadow: 0 6px 20px rgba(255, 85, 0, 0.12);
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 0 rgba(255, 85, 0, 0.10);
     }
     .btn-secondary:active {
       transform: translateY(0);
@@ -750,7 +750,7 @@
       top: -8px;
       bottom: -8px;
       background: rgba(255, 85, 0, 0.16);
-      border-radius: 8px;
+      border-radius: 2px;
       transform: scaleX(0);
       transform-origin: left center;
       transition: transform 0.55s var(--transition-smooth);
@@ -890,7 +890,7 @@
       top: 0;
       bottom: 0;
       background: rgba(255, 85, 0, 0);
-      border-radius: 8px;
+      border-radius: 2px;
       pointer-events: none;
       transition: background 0.4s var(--transition-smooth);
     }
@@ -995,7 +995,7 @@
       flex: 0 0 230px;
       background: var(--color-sub-bass);
       border: 1px solid rgba(248, 249, 250, 0.08);
-      border-radius: 18px;
+      border-radius: 4px;
       padding: 26px 22px;
     }
     .lifecycle-arrow {
@@ -1083,7 +1083,7 @@
       position: relative;
       background: var(--color-sub-bass);
       border: 1px solid rgba(248, 249, 250, 0.07);
-      border-radius: 20px;
+      border-radius: 4px;
       padding: 30px 30px 26px;
       display: flex;
       flex-direction: column;
@@ -1453,7 +1453,7 @@
         max-width: calc(100vw - 56px);
         padding: 11px 18px;
         font-size: 0.9rem;
-        border-radius: 10px;
+        border-radius: 2px;
         justify-content: center;
       }
       .nav-links {
@@ -2091,6 +2091,7 @@
             <span class="avatar">H</span>
             <cite>
               <span class="name">Hoang</span>
+              <span class="role">Electronic Music Artist</span>
             </cite>
           </div>
         </div>
